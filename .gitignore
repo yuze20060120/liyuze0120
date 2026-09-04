@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 环境与密钥
+.env
+*.pem
+
+# 数据与模型（大数据文件不入库，可重新生成）
+data/bearing_dataset.csv
+data/raw_signal_dataset.csv
+data/degradation_dataset.csv
+data/train_processed.csv
+data/test_processed.csv
+data/artifacts/*.pkl
+data/models/*.joblib
+data/models/*.pt
+data/database/*.db
+
+# 测试与运行产物
+.pytest_cache/
+*.log
+streamlit/

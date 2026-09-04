@@ -1,0 +1,109 @@
+{
+  "diagnosis": {
+    "random_forest": {
+      "model": "random_forest",
+      "accuracy": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_macro": 1.0,
+      "confusion_matrix": [
+        [
+          24,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          24,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          24,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          24
+        ]
+      ]
+    },
+    "xgboost": {
+      "model": "xgboost",
+      "accuracy": 0.9895833333333334,
+      "precision_macro": 0.99,
+      "recall_macro": 0.9895833333333334,
+      "f1_macro": 0.9895788102475033,
+      "confusion_matrix": [
+        [
+          24,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          24,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          23,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          24
+        ]
+      ]
+    },
+    "cnn1d": {
+      "model": "cnn1d",
+      "accuracy": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_macro": 1.0,
+      "confusion_matrix": [
+        [
+          75,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          75,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          75,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          75
+        ]
+      ]
+    }
+  },
+  "rul": {
+    "model": "lstm_rul",
+    "rmse": 0.6045599026461607,
+    "mae": 0.47284936826221224,
+    "samples": 1212
+  }
+}
